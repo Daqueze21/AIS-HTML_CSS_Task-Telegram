@@ -24,10 +24,10 @@
                <ul>
                   <li class="chats__list-item">
                      <div class="item-icon">
-                        <img src='./img/img_avatar3.png' alt="" class="item-avatar">
+                        <img src='./img/img_avatar3.png' alt="avatar" class="item-avatar">
                      </div>
                      <div class="item-description">
-                        <p class="item-name">Some chat name</p>
+                        <p class="item-name">Chat name</p>
                         <p class="item-msg">Lorem ipsum dolor sit amet.</p>
                      </div>
                      <div class="item-meta">
@@ -55,10 +55,6 @@
                   <i class="fa fa-search fa-lg"></i>
                   <i class="far fa-window-maximize fa-lg window-icon"></i>
                   <i class="fa fa-ellipsis-v fa-lg"></i>
-
-                  <!-- <ul class="buttons-list">
-                     
-                  </ul> -->
                </div>
             </div>
             <!-- chat__header -->
@@ -133,14 +129,127 @@
                   <i class="far fa-smile fa-2x smile-icon"></i>
                   <i class="fa fa-microphone fa-2x microphone-icon"></i>
                </div>
-
             </div>
             <!-- chat__footer -->
          </section>
+         <!-- chat__wrapper -->
+
+         <section class="info">
+            <div class="info__header">
+               <div class="user-info">User Info</div>
+               <div class="cross"><i class="fa fa-times fa-lg" aria-hidden="true"></i></div>
+            </div>
+
+            <div class="info__scroll">
+               <div class="info__wrapper">
+                  <div class="info__content">
+                     <img src="./img/img_avatar3.png" alt="avatar" class="info__content-avatar">
+                     <div class="info__content-name">
+                        <p class="info__content-nickname">User Name</p>
+                        <p class="info__content-online">last seen recently</p>
+                     </div>
+                  </div>
+
+                  <div class="void"></div>
+
+                  <div class="info__user-description">
+                     <div class="info__user-wrapper">
+                        <i class="fa fa-info-circle fa-lg"></i>
+                        <div class="info__values">
+                           <p class="value">+375 29 123 45 67</p>
+                           <p class="description">Mobile</p>
+                        </div>
+                     </div>
+                     <div class="info__user-wrapper">
+                        <i class="fa fa-info-circle fa-lg invisible"></i>
+                        <div class="info__values">
+                           <p class="value">@UserName</p>
+                           <p class="description">Username</p>
+                        </div>
+                     </div>
+                     <div class="info__user-wrapper last">
+                        <i class="far fa-bell fa-lg"></i>
+                        <div class="info__values">
+                           <span class="value">Notifications</span>
+                           <label class="switch">
+                              <input type="checkbox">
+                              <span class="slider round"></span>
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- info__user-description -->
+                  <div class="void"></div>
+
+                  <div class="info__attachments">
+                     <ul>
+                        <li>
+                           <i class="fa fa-camera fa-lg"></i>
+                           <div class="value">10 photos</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-video fa-lg"></i>
+                           <div class="value">5 videos</div>
+                        </li>
+                        <li>
+                           <i class="far fa-file fa-lg"></i>
+                           <div class="value">2 files</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-headphones-alt fa-lg"></i>
+                           <div class="value">8 audio files</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-link fa-lg"></i>
+                           <div class="value">12 shared links</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-microphone fa-lg"></i>
+                           <div class="value">13 voice messages</div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- info__attachments -->
+                  
+                  <div class="void"></div>
+
+                  <div class="info__attachments contacts-controls">
+                     <ul>
+                        <li>
+                           <i class="fa fa-list-ul fa-lg"></i>
+                           <div class="value">Share contact</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-list-ul fa-lg invisible"></i>
+                           <div class="value">Edit contact</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-list-ul fa-lg invisible"></i>
+                           <div class="value">Delete contact</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-list-ul fa-lg invisible"></i>
+                           <div class="value">Clear history</div>
+                        </li>
+                        <li>
+                           <i class="fa fa-list-ul fa-lg invisible"></i>
+                           <div class="value">Delete chat</div>
+                        </li>
+                        <li class="block">
+                           <i class="fa fa-list-ul fa-lg invisible"></i>
+                           <div class="value">Block user</div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- info__attachments -->
+
+               </div>
+               
+            </div>
+            
+         </section>
       </main>
    </div>
-   
-
    <script src="index.js"></script>
 </body>
 </html>

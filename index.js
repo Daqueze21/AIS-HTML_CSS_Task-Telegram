@@ -11,7 +11,7 @@ class CreateChats {
                <p class="item-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ullam.</p>
             </div>
             <div class="item-meta">
-               <p class="msg-time">8:12</p>
+               <p class="msg-time">18:12</p>
                <p class="unread-counter">26</p>
             </div>
          </li>
